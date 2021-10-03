@@ -1,0 +1,10 @@
+create database trainBookingDB;
+use trainBookingDB;
+create table train(train_no int primary key,train_name varchar(40),source_point varchar(40),destination_point varchar(40),ticket_prize double);
+Insert into train values (1001,'Shatabdi Express','Bangalore','Delhi',2500);
+Insert into train values (1002,'Shatabdi Express','Delhi','Bangalore',2500);
+Insert into train values (1003,'Udyan Express','Bangalore','Mumbai',1500);
+Insert into train values (1004,'Udyan Express','Mumbai','Bangalore',1500);
+Insert into train values (1005,'Brindavan Express','Bangalore','Chennai',1000);
+Insert into train values (1006,'Brindavan Express','Chennai','Bangalore',1000);
+select * from train;

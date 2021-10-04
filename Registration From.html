@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body style="text-align:center;">
+<form>
+    <table>
+        <tr><td>Name :</td>
+                <td><input type="text" name="name" placeholder="Enter your Name" required></td></tr>
+        <tr><td>Username :</td>
+                <td><input type="text" name="uname" placeholder="Enter your User Name"required></td></tr>
+        <tr><td>Password :</td>
+            <td><input type="password" name="password" placeholder="Enter your Password" required></td></tr>
+        <tr><td>Re-Enter Password :</td>
+            <td><input type="password" name="re-password" placeholder="Enter your Re-enter Password"required></td></tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <select id="gender" name="gender">
+                    <option>Select your gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Languages :</td>
+            <td>
+                <input type="checkbox">Tamil<br><input type="checkbox">Telugu<br><input type="checkbox">English<br><input type="checkbox">Kannada
+            </td>
+        </tr>
+        <tr>
+            <td>Age :</td>
+
+            <td>
+                <input type="radio" name="group">15-25<input type="radio" name="group">25-40<input type="radio" name="group">40 and above
+            </td>
+        </tr>
+
+    </table>
+    <div><input type="submit" value="submit">      <input type="reset" value="reset"></div>
+</form>
+
+</body>
+</html>

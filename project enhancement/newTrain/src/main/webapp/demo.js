@@ -1,0 +1,36 @@
+function sub() {
+    var url = window.location.href;
+    var url1 = new URL(url);
+    var a = url1.searchParams.get("name1");
+    var b = url1.searchParams.get("age1");
+    var c = url1.searchParams.get("gender1");
+    var d = document.getElementById("retail").value;
+    var e = url1.searchParams.get("name2");
+    var f = url1.searchParams.get("age2");
+    var g = url1.searchParams.get("gender2");
+    var h = document.getElementById("retail1").value;
+    var i = url1.searchParams.get("name3");
+    var j = url1.searchParams.get("age3");
+    var k = url1.searchParams.get("gender3");
+    var l = document.getElementById("retail2").value;
+    var m = url1.searchParams.get("name4");
+    var n = url1.searchParams.get("age4");
+    var o = url1.searchParams.get("gender4");
+    var p=document.getElementById("retail3").value;
+    document.getElementById("a").innerHTML = a;
+    document.getElementById("b").innerHTML = b;
+    document.getElementById("c").innerHTML = c;
+    document.getElementById("d").innerHTML = d;
+    document.getElementById("e").innerHTML = e;
+    document.getElementById("f").innerHTML = f;
+    document.getElementById("g").innerHTML = g;
+    document.getElementById("h").innerHTML = h;
+    document.getElementById("i").innerHTML = i;
+    document.getElementById("j").innerHTML = j;
+    document.getElementById("k").innerHTML = k;
+    document.getElementById("l").innerHTML = l;
+    document.getElementById("m").innerHTML = m;
+    document.getElementById("n").innerHTML = n;
+    document.getElementById("o").innerHTML = o;
+    document.getElementById("p").innerHTML = p;
+}
